@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/stuck.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/touchTouch.css">
+        <link rel="stylesheet" href="css/camera.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-migrate-1.1.1.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/jquery.equalheights.js"></script>
+        <script src="js/jquery.mobilemenu.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/tmStickUp.js"></script>
+        <script src="js/jquery.ui.totop.js"></script>
+        <script src="js/touchTouch.jquery.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/sForm.js"></script>
+        <script src="js/camera.js"></script>
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <script src="js/jquery.mobile.customized.min.js"></script>
+        <!--<![endif]-->
+        <script>
+        $(document).ready(function(){            
+                jQuery('#camera_wrap').camera({
+                        loader: false,
+                        pagination: false ,
+                        minHeight: '200',
+                        thumbnails: false,
+                        height: '39,0625%',
+                        caption: true,
+                        navigation: true,
+                        fx: 'mosaic'
+                });
+                var owl = $("#owl");
+                owl.owlCarousel({
+                        items : 7, // 10, //items above 1000px browser width
+                        itemsDesktop : [995,5], //5 items between 1000px and 901px
+                        itemsDesktopSmall : [767, 3], // betweem 900px and 601px
+                    itemsTablet: [700, 3], //2 items between 600 and 0
+                    itemsMobile: [479, 2], // itemsMobile disabled - inherit from itemsTablet option
+                    navigation: true,
+                });
+                $().UItoTop({easingType: 'easeOutQuart'});
+                $('#stuck_container').tmStickUp({});
+                $('.gallery a.gal_item').touchTouch();
+            });
+        </script>
+        <!--[if lt IE 8]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+                <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+                        <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+                </a>
+        </div>
+        <![endif]-->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <link rel="stylesheet" media="screen" href="css/ie.css">
+        <![endif]-->
+    </head>
+    <body class="page1" id="top" oncontextmenu="return false">
+        <!--==============================header=================================-->
+        <header>
+            <div id="stuck_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_12">
+                            <h1>
+                                <a href="index.html">
+                                    <img src="images/logo.png" alt="Your Happy Family">
+                                </a>
+                            </h1>                           
+                            <div class="menu_block">
+                                <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+                                    <ul class="sf-menu">
+                                        <li class="current"><a>Über</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="index-2.html">Referenzen</a></li>
+                                        <li><a href="contact.html">Kontakt</a></li>
+
+                                    </ul>
+                                </nav>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="slider_wrapper">
+                <div id="camera_wrap" class="">
+                    <div data-src="images/home/slider/slide1a.jpg">
+                        <div class="caption fadeIn">
+                            <div class="title">Classic Cars</div>
+                            <p>Die Faszination Auto ist heute stärker denn je. Moderne Autos werden schneller, sparsamer und eleganter.</p>
+                            <p>Stilvoller sind jedoch die Fahrzeuge aus vergangenen Tagen. Immer wieder zu bestaunen in Museen oder auf Oldtimertreffen.</p>
+                            <a href="#">zur Gallerie</a>
+                        </div>
+                    </div>
+                    <div data-src="images/home/slider/slide2a.jpg">
+                        <div class="caption fadeIn">
+                            <div class="title">Romantik</div>
+                            <p>Romantisch, klassisch und klischeebehaftet?!</p>
+                            <p class="highlighted">Sonnenuntergänge pur</p>
+                            <p>Sie sind das wohl am meisten fotografiert und doch zeitlos.</p>
+                            <a href="#">zur Gallerie</a>
+                        </div>
+                    </div>
+                    <div data-src="images/home/slider/slide3.jpg">
+                        <div class="caption fadeIn">
+                            <div class="title">Flora</div>
+                            <p>Die Pflanzenwelt, speziell die Blumen und Blüter zeigen uns immer wieder die simple Schönheit der Natur.</p>
+                            <p>Fotografieren in der Natur beudetet für mich Entspannung.</p>
+                            <a href="#">zur Gallerie</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=====================Content======================-->
+            <div class="block1">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_12">
+                            <div class="rel">
+                                <p>
+                                    Hallo und herzlich Willkommen auf Jens Bolz Photography.
+                                </p>
+                                <a href="contact.html" class="btn bt__1">Anfrage</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="content">
+                <div class="container"><div class="ic">More Website Templates @ TemplateMonster.com - May 05, 2014!</div>
+                    <div class="row">
+                        <div class="grid_12">
+                            <h2>Portfolio</h2>
+                            <div class="gallery">
+                                <div class="row">
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/people_big.jpg" class="gal_item" oncontextmenu="return false;">
+                                            <img src="images/home/portfolio/thumbs/people_thumb.jpg" alt="" oncontextmenu="return false;">
+                                            <div class="gal_caption">Menschen</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>                                   
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/classiccars_big.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/classiccars_thumb.jpg" alt="">
+                                            <div class="gal_caption">Classic Cars</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/arcitecture.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/arcitecture_thumb.jpg" alt="">
+                                            <div class="gal_caption">Architektur</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/animal_big.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/animal_thumb.jpg" alt="">
+                                            <div class="gal_caption">Tiere</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/landscape_big.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/landscape_thumb.png" alt="">
+                                            <div class="gal_caption">Landschaft</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/nature_big.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/nature_thumb.jpg" alt="">
+                                            <div class="gal_caption">Natur</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>
+                                     <div class="grid_4">
+<!--                                        <a href="images/home/portfolio/big/cementary_big.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/cementary_thumb.jpg" alt="">
+                                            <div class="gal_caption">Friedhöfe</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>-->
+                                    </div>
+                                    <div class="grid_4">
+                                        <a href="images/home/portfolio/big/cementary_big.jpg" class="gal_item">
+                                            <img src="images/home/portfolio/thumbs/cementary_thumb.jpg" alt="">
+                                            <div class="gal_caption">Friedhöfe</div>
+                                            <span class="gal_magnify"></span>
+                                        </a>
+                                    </div>
+                                    
+           
+
+            
+            <section class="content">
+                
+                    <div class="row">
+                       
+                        <div class="clear"></div>
+                        <div class="grid_4">
+                            <h3 class="mb__0">Equipment</h3>
+                            <div class="block2">
+                                <div class="block2_title color1">Camera</div>
+                                <ul class="list">
+                                    <li>Nikon D3100</li>
+                                    <li>Nikon D7100</li>
+                                    <li>Nikon AF-S 50mm 1.8</li>
+                                    <li>Nikon AF-S 18-55mm 3.5-4.5</li>
+                                    <li>Nikon AF-S 55-200mm 4-5.6</li>
+                                    <li>Tamron 17-50mm 2.8</li>
+                                    <li>Sigma 10-20mm 4-5.6</li>
+                                    <li>Sigma 70-300mm Makro</li>
+                                </ul>
+                            </div>
+                            <div class="block2">
+                                <div class="block2_title color1">Lighting</div>
+                                <ul class="list">
+                                    <li>Triopo TR970N Speedlight</li>
+                                    <li>Neewer VK750 I Speedlite</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid_4">
+                            <h3>Über mich</h3>
+                            <p>Als hauptberuflicher Software- und Webentwickler ist Fotografie für mich ein Ausgleich zum Beruf und eine Art Meditation.</p>
+                            <p></p>
+                            Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsanInteger convallis orci vel mi laoreet, at ornare lorem consequatasellus erat nisl<br>
+                            <a href="#" class="btn bt__2">Read More</a>
+                        </div>
+                        <div class="grid_4">
+                            <h3>Fotos im Netz</h3>
+                            <ul class="list1">                                
+                                <li>
+                                    <div class="list_count">1</div>
+                                    <div class="extra_wrapper">
+                                        <div class="list1_title color2"><a href="https://500px.com/jens79" target="_blank">"Fotos auf 500px </a></div>Meine Fotos auf 500px
+                                        <a href="https://500px.com/jens79" target="_blank" class="color1 td_und">More</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list_count">2</div>
+                                    <div class="extra_wrapper">
+                                        <div class="list1_title color2"><a href="https://www.flickr.com/photos/jensbolz/" target="_blank">Fotos auf FLICKR</a></div>Meine Fotos auf FLICKR
+                                        <a href="https://www.flickr.com/photos/jensbolz/" target="_blank" class="color1 td_und">More</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list_count">3</div>
+                                    <div class="extra_wrapper">
+                                        <div class="list1_title color2"><a href="#">“Kerem ipsum dolor sit met </a></div>In mollis erat mattis neque facilisis, sit amet ultricies erat rutrumras
+                                        <a href="#" class="color1 td_und">More</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="grid_12">
+                            <h3 class="head1">Multimedia</h3>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div id="owl">
+                    <div class="item"><img src="images/car1.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img2.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img3.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img4.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img5.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img6.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img7.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img1.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img2.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img3.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img4.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img5.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img6.jpg" alt=""></div>
+                    <div class="item"><img src="images/car_img7.jpg" alt=""></div>
+                </div>
+            </section>
+            <!--==============================footer=================================-->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_12">
+                            <div class="footer_socials">
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-google-plus"></a>
+                                <a href="#" class="fa fa-pinterest"></a>
+                            </div>
+                            <div class="copy">
+                                <span class="brand">Jens Bolz</span> &copy; <span id="copyright-year"></span> | <a href="imprint.html">Impressum</a>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html> 
