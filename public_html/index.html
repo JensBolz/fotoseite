@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/camera.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="js/jquery.js"></script>
-        <script src="js/jquery-migrate-1.1.1.js"></script>
+       <script src="js/jquery-migrate-1.1.1.js"></script>
         <script src="js/script.js"></script>
         <script src="js/superfish.js"></script>
         <script src="js/jquery.equalheights.js"></script>
@@ -66,7 +66,7 @@
         <link rel="stylesheet" media="screen" href="css/ie.css">
         <![endif]-->
     </head>
-    <body class="page1" id="top" oncontextmenu="return false">
+    <body class="page1" id="top" oncontextmenu="return true">
         <!--==============================header=================================-->
         <header>
             <div id="stuck_container">
@@ -82,8 +82,6 @@
                                 <nav class="horizontal-nav full-width horizontalNav-notprocessed">
                                     <ul class="sf-menu">
                                         <li class="current">Über</li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="index-2.html">Referenzen</a></li>
                                         <li><a href="contact.html">Kontakt</a></li>
 
                                     </ul>
@@ -93,38 +91,20 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <div class="main">
+            </div>   
             <div class="slider_wrapper">
                 <div id="camera_wrap" class="">
                     <div data-src="images/home/slider/slide1a.jpg">
-<!--                        <div class="caption fadeIn">
-                            <div class="title">Classic Cars</div>
-                            <p>Die Faszination Auto ist heute stärker denn je. Moderne Autos werden schneller, sparsamer und eleganter.</p>
-                            <p>Stilvoller sind jedoch die Fahrzeuge aus vergangenen Tagen. Immer wieder zu bestaunen in Museen oder auf Oldtimertreffen.</p>
-                            <a href="#">zur Gallerie</a>
-                        </div>-->
                     </div>
                     <div data-src="images/home/slider/slide2a.jpg">
-<!--                        <div class="caption fadeIn">
-                            <div class="title">Romantik</div>
-                            <p>Romantisch, klassisch und klischeebehaftet?!</p>
-                            <p class="highlighted">Sonnenuntergänge pur</p>
-                            <p>Sie sind das wohl am meisten fotografiert und doch zeitlos.</p>
-                            <a href="#">zur Gallerie</a>
-                        </div>-->
+
                     </div>
                     <div data-src="images/home/slider/slide3.jpg">
-<!--                        <div class="caption fadeIn">
-                            <div class="title">Flora</div>
-                            <p>Die Pflanzenwelt, speziell die Blumen und Blüter zeigen uns immer wieder die simple Schönheit der Natur.</p>
-                            <p>Fotografieren in der Natur beudetet für mich Entspannung.</p>
-                            <a href="#">zur Gallerie</a>
-                        </div>-->
                     </div>
                 </div>
             </div>
+            </header>
+        <div class="main">
             <!--=====================Content======================-->
             <div class="block1">
                 <div class="container">
@@ -132,43 +112,42 @@
                         <div class="grid_12">
                             <div class="rel">
                                 <p>
-                                    Hallo und herzlich Willkommen auf Jens Bolz Photography.
+                                <center>Hallo und herzlich Willkommen auf Jens Bolz Photography.</center> 
                                 </p>
-                                <a href="contact.html" class="btn bt__1">Anfrage</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <section class="content">
+            </div>     
+            <section>
                 <div class="container">
                     <div class="row">
                         <div class="grid_12">
                             <h2>Portfolio</h2>
+                            
                             <div class="gallery">
                                 <div class="row">
-                                    <div class="grid_4">
-                                        <a href="images/home/portfolio/big/people_big.jpg" class="gal_item" oncontextmenu="return false;">
-                                            <img src="images/home/portfolio/thumbs/people_thumb.jpg" alt="" oncontextmenu="return false;">
-                                            <div class="gal_caption">Menschen</div>
-                                            <span class="gal_magnify"></span>
-                                        </a>
-                                    </div>
-                                    <div class="grid_4">
-                                        <a href="images/home/portfolio/big/classiccars_big.jpg" class="gal_item">
+                                    <div class="grid_4 gal_item" >
+                                        <a href="portfolio_people.html" >
+                                    <img src="images/gallery/thumbs/people/thumb1.jpg" alt="">
+                                    <div class="gal_caption" >Menschen</div>
+                                </a>
+                            </div>
+                                    <div class="grid_4 gal_item" >
+                                        <a href="images/home/portfolio/big/classiccars_big.jpg">
                                             <img src="images/home/portfolio/thumbs/classiccars_thumb.jpg" alt="">
                                             <div class="gal_caption">Classic Cars</div>
                                             <span class="gal_magnify"></span>
                                         </a>
                                     </div>
-                                    <div class="grid_4">
-                                        <a href="images/home/portfolio/big/arcitecture.jpg" class="gal_item">
+                                    <div class="grid_4 gal_item" >
+                                        <a href="images/home/portfolio/big/arcitecture.jpg">
                                             <img src="images/home/portfolio/thumbs/arcitecture_thumb.jpg" alt="">
                                             <div class="gal_caption">Architektur</div>
                                             <span class="gal_magnify"></span>
                                         </a>
                                     </div>
-                                    <div class="grid_4">
+                                    <div class="grid_4 gal_item" >
                                         <a href="images/home/portfolio/big/animal_big.jpg" class="gal_item">
                                             <img src="images/home/portfolio/thumbs/animal_thumb.jpg" alt="">
                                             <div class="gal_caption">Tiere</div>
@@ -189,19 +168,13 @@
                                             <span class="gal_magnify"></span>
                                         </a>
                                     </div>
-                                     <div class="grid_4">
-<!--                                        <a href="images/home/portfolio/big/cementary_big.jpg" class="gal_item">
-                                            <img src="images/home/portfolio/thumbs/cementary_thumb.jpg" alt="">
-                                            <div class="gal_caption">Friedhöfe</div>
-                                            <span class="gal_magnify"></span>
-                                        </a>-->
-                                    </div>
                                     <div class="grid_4">
                                         <a href="images/home/portfolio/big/cementary_big.jpg" class="gal_item">
                                             <img src="images/home/portfolio/thumbs/cementary_thumb.jpg" alt="">
                                             <div class="gal_caption">Friedhöfe</div>
                                             <span class="gal_magnify"></span>
                                         </a>
+                                    </div>
                                     </div>
                                     <div class="row">
                                         <div class="clear"></div>
@@ -236,7 +209,6 @@
                                             <h3>Über mich</h3>
                                             <p>Als hauptberuflicher Software- und Webentwickler ist Fotografie für mich ein Ausgleich zum Beruf und eine Art Meditation.</p>
                                             <p></p>
-                <!--                            <a href="#" class="btn bt__2">Read More</a>-->
                                         </div>
                                         <div class="grid_4">
                                             <h3>Fotos im Netz</h3>
@@ -284,7 +256,7 @@
                         </div>
                     </div>
                 </div>
-                        </section>
+            </section>
             <!--==============================footer=================================-->
             <footer>
                 <div class="container">
